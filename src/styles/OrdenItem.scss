@@ -1,0 +1,70 @@
+@import 'vars';
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 25px;
+}
+
+.banner {
+  background-color: var(--rojo);
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  place-content: center;
+  display: flex;
+  gap: 50%;
+  width: 350px;
+  align-items: center;
+}
+
+.information {
+  font-size: 15px;
+  display: grid;
+  font-weight: bold;
+  color: white
+}
+
+.total {
+  font-weight: bold;
+  color: white;
+}
+
+.producto {
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  place-content: center;
+  width: 350px;
+  align-items: center;
+  padding: (5px 10px 5px 0);
+  border: 2px solid;
+  border-color: var(--negro);
+  background-color: var(--blanco);
+  margin-top: 8px;
+}
+
+.producto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.producto h4 {
+  color: var(--rojo);
+
+}
+
+.producto a {
+  font-weight: bold;
+  color: var(--negro);
+  font-size: var(--md);
+  padding-right: 10px;
+}
+
+@media (max-width: 640px) {
+  .title {
+    display: none;
+  }
+}

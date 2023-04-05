@@ -1,0 +1,63 @@
+@import 'vars';
+.MenuC{
+  background-color: var(--blancoobscuro);
+  border-radius: 5px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.MenuC .card {
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    
+  }
+  
+  .MenuC .card  .card-img {
+    margin-right: 10px;
+     width: 200px;
+  }
+  
+  .card-img img {
+    max-width: 100%;
+    
+   
+    border-radius: 25px;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .card-price {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .card-currency {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .card-amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
